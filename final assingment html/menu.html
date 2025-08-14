@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pizza Hut | Menu</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .menu-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .pizza-item {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      width: 250px;
+      text-align: center;
+      background-color: #fff;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .pizza-item img {
+      width: 100%;
+      height: 180px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      object-fit: cover;
+    }
+
+    .pizza-name {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .pizza-price {
+      color: green;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Our Pizza Menu</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="about.html">About</a>
+    <a href="order.html">Order</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <p>Select Pizza Size:</p>
+<input type="radio" id="small" name="pizza-size" value="small">
+<label for="small">Small (8")</label><br>
+
+<input type="radio" id="medium" name="pizza-size" value="medium">
+<label for="medium">Medium (12")</label><br>
+
+<input type="radio" id="large" name="pizza-size" value="large">
+<label for="large">Large (16")</label>
+
+  <main>
+    <div class="menu-container">
+
+      <div class="pizza-item">
+        <img src="images.jpeg" alt="Margherita Pizza">
+        <div class="pizza-name">Margherita</div>
+        <div class="pizza-price">rs.500</div>
+      </div>
+
+      <div class="pizza-item">
+        <img src="download.jpeg" alt="Pepperoni Pizza">
+        <div class="pizza-name">Pepperoni</div>
+        <div class="pizza-price">rs.650</div>
+      </div>
+
+      <div class="pizza-item">
+        <img src="download (1).jpeg" alt="Veggie Supreme Pizza">
+        <div class="pizza-name">Veggie Supreme</div>
+        <div class="pizza-price">rs.450</div>
+      </div>
+
+      <div class="pizza-item">
+        <img src="AR-24878-bbq-chicken-pizza-beauty-4x3-39cd80585ad04941914dca4bd82eae3d.jpg" alt="Meat Lovers Pizza">
+        <div class="pizza-name">Meat Lovers</div>
+        <div class="pizza-price">rs.550</div>
+      </div>
+
+      <div class="pizza-item">
+        <img src="images (1).jpeg" alt="BBQ Chicken Pizza">
+        <div class="pizza-name">BBQ Chicken</div>
+        <div class="pizza-price">rs.800</div>
+      </div>
+
+      <div class="pizza-item">
+        <img src="Easy-Hawaiian-Pizza-Recipe-Image-F.jpg" alt="Hawaiian pizza">
+        <div class="pizza-name">Hawaiian Pizza</div>
+        <div class="pizza-price">rs.700</div>
+      </div>
+
+      <div class="pizza-item">
+        <img src="pizza.webp" alt="Neapolitan Pizza">
+        <div class="pizza-name">Neapolitan Pizza</div>
+        <div class="pizza-price">rs.750</div>
+      </div>
+
+      <div class="pizza-item">
+        <img src="1685055-1-lg.webp" alt="Mushroom Pizza">
+        <div class="pizza-name">Mushroom Pizza</div>
+        <div class="pizza-price">rs.350</div>
+      </div>
+
+      <div class="pizza-item">
+        <img src="mochi-cheese-pizza-ft-1.jpg" alt="cheese Pizza">
+        <div class="pizza-name">cheese Pizza</div>
+        <div class="pizza-price">rs.650</div>
+      </div>
+
+      <div class="pizza-item">
+        <img src="IMG_8528-2.jpg" alt="French Fries">
+        <div class="pizza-name">french fries</div>
+        <div class="pizza-price">rs.250</div>
+      </div>
+
+      <div class="pizza-item">
+        <img src="SummerRecipe_PeriPeriFries_1400x850.jpg" alt="peri peri fenchfries">
+        <div class="pizza-name">peri peri frenchfries</div>
+        <div class="pizza-price">rs.300</div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Pizza Hut Project | </p>
+  </footer>
+  
+
+</body>
+</html>
