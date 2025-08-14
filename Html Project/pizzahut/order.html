@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pizza Hut | Order</title>
+  <link rel="stylesheet" href="script.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Order Your Pizza</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="about.html">About</a>
+    <a href="order.html">Order</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main style="padding: 20px;">
+    <form onsubmit="showAlert('Thank you for your order!'); return false;">
+      <label for="pizza">Choose a pizza:</label>
+      <select id="pizza" name="pizza">
+        <option value="margherita">Margherita</option>
+        <option value="pepperoni">Pepperoni</option>
+        <option value="veggie">Veggie Supreme</option>
+      </select><br><br>
+
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantity" min="1" value="1"><br><br>
+
+      <button type="submit">Place Order</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 Pizza Hut Project | </p>
+  </footer>
+</body>
+</html>

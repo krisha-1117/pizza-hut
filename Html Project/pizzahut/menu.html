@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pizza Hut | Menu</title>
+  <link rel="stylesheet" href="script.css">
+  <style>
+    .menu-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .pizza-item {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      width: 250px;
+      text-align: center;
+      background-color: #fff;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .pizza-item img {
+      width: 100%;
+      height: 180px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      object-fit: cover;
+    }
+
+    .pizza-name {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .pizza-price {
+      color: green;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Our Pizza Menu</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="about.html">About</a>
+    <a href="order.html">Order</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <div class="menu-container">
+
+      <div class="pizza-item">
+        <img src="pizzahut/photo0jpg.jpg" alt="Margherita Pizza">
+        <div class="pizza-name">Margherita</div>
+        <div class="pizza-price">$8.99</div>
+      </div>
+
+      <div class="pizza-item">
+        <img src="images/pepperoni.jpg" alt="Pepperoni Pizza">
+        <div class="pizza-name">Pepperoni</div>
+        <div class="pizza-price">$10.99</div>
+      </div>
+
+      <div class="pizza-item">
+        <img src="images/veggie.jpg" alt="Veggie Supreme Pizza">
+        <div class="pizza-name">Veggie Supreme</div>
+        <div class="pizza-price">$9.49</div>
+      </div>
+
+      <div class="pizza-item">
+        <img src="pizzahut/photo0jpg.jpg" alt="Meat Lovers Pizza">
+        <div class="pizza-name">Meat Lovers</div>
+        <div class="pizza-price">$12.49</div>
+      </div>
+
+      <div class="pizza-item">
+        <img src="pizzahut/photo0jpg.jpg" alt="BBQ Chicken Pizza">
+        <div class="pizza-name">BBQ Chicken</div>
+        <div class="pizza-price">$11.99</div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Pizza Hut Project | Made by Student</p>
+  </footer>
+</body>
+</html>
